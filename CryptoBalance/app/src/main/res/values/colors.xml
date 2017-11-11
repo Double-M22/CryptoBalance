@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0c112e</color>
+    <color name="colorPrimaryDark">#141833</color>
+    <color name="colorAccent">#2458b7</color>
+    <color name="white">#ffffff</color>
+    <color name="home_backgoung">#1d1d3b</color>
+    <color name="card_view_back">#887cef</color>
+</resources>

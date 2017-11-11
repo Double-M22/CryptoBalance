@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cyclon.com.cryptobalance.ConversionScreen"
+    android:background="@color/card_view_back">
+
+    <RelativeLayout
+        android:layout_width="383dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/currencyText"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textSize="40sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/currencyText"
+            android:layout_toStartOf="@+id/currencyText"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="30sp"
+        android:hint="@string/EnterAmount"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/country"
+        android:text="NGN"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignBottom="@+id/amount"
+        android:layout_toRightOf="@+id/amount"
+        android:layout_toEndOf="@+id/amount" />
+</RelativeLayout>

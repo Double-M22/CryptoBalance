@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CryptoBalance</string>
+    <string name="Btc">BTC</string>
+    <string name="EnterAmount">Enter Amount</string>
+    <string name="Compare">Compare</string>
+    <string name="Usd">USD</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="title_activity_fragment">Fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_page">HomePage</string>
+</resources>
